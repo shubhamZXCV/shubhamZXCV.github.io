@@ -1,0 +1,13 @@
+main:
+
+  - title: "Example Publication Title Goes Here"
+    authors: <strong>Your Name</strong>, Coauthor One, Coauthor Two
+    conference_short: CONF
+    conference: Example Conference Name <strong>(CONF)</strong>, 2026.
+    # pdf:
+    # supp:
+    # arxiv:
+    # page:
+    # code:
+    image: ./assets/files/BLANK.jpg
+    notes: Placeholder entry — replace with a real publication.
