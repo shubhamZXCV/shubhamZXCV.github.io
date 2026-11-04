@@ -1,16 +1,19 @@
 # Fields are the same as in projects.yml (see the comment at the top of that file).
 
 - title: "Teaching Assistant — Operating Systems and Networks (CS3.301)"
+  url: "https://cs3301.pages.dev/"
   subtitle: "Instructor: Prof. Deepak Gangadharan"
   venue: IIIT Hyderabad
   date: Monsoon 2026
 
 - title: "Teaching Assistant — Introduction to Software Systems (CS6.201)"
+  url: "https://cs6201.github.io/s26/"
   subtitle: "Instructors: Prof. Anil Nelakanti and Prof. Anoop Namboodiri"
   venue: IIIT Hyderabad
   date: Spring 2026
 
 - title: "Teaching Assistant — Operating Systems and Networks (CS3.301)"
+  url: "https://karthikv1392.github.io/cs3301_osn/home/"
   subtitle: "Instructor: Prof. Karthik Vaidhyanathan"
   venue: IIIT Hyderabad
   date: Monsoon 2025
