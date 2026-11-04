@@ -1,28 +1,33 @@
 # Basic Information
-title: Your Name
-position: Under Construction
-affiliation: Your Affiliation
-email: yourname (at) example.com
+title: Shubham Goel
+position: CSE Senior
+affiliation: IIIT Hyderabad
+affiliation_link: https://www.iiit.ac.in/
+# email: yourname (at) example.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: personal homepage, portfolio
-description: Personal homepage of Your Name. Site under construction.
+keywords: Shubham Goel, IIIT Hyderabad, computer science, personal homepage, portfolio
+description: Personal homepage of Shubham Goel, CSE senior at IIIT Hyderabad.
 canonical: https://shubhamZXCV.github.io/
 
 # Links
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-# cv_link: assets/files/Resume.pdf
+google_scholar: https://scholar.google.com/citations?user=BPn0sroAAAAJ&hl=en
+cv_link: assets/files/resume.pdf
 github_link: https://github.com/shubhamZXCV
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+linkedin: https://www.linkedin.com/in/shubham-goel-iiith
+twitter: https://x.com/shubhamZXCV
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
 avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon.png
+
+# Sidebar menu
+# Links to Home and to every section listed in _data/sections.yml.
+sidebar_menu: true
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

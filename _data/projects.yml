@@ -1,0 +1,68 @@
+# Each item supports these fields (all optional except title):
+#
+#   title:        main line; becomes a link if url is set
+#   url:          where the title links to
+#   image:        thumbnail (card style only), e.g. ./assets/img/my-project.png
+#   badge:        small label on top of the image, e.g. a venue or "WIP"
+#   subtitle:     second line, e.g. authors, your role, or tech stack (HTML allowed)
+#   venue:        italic line, e.g. conference, course, or organisation (HTML allowed)
+#   date:         shown at the right of the title in list style, or under the venue in card style
+#   description:  a sentence or two (HTML allowed)
+#   links:        buttons, each with a name and url
+#   note:         highlighted remark, e.g. "Oral presentation"
+#
+# Items appear in the order written here, so put the newest first.
+
+- title: "Distributed Event Log"
+  image: ./assets/img/projects/kafka.png
+  url: https://github.com/shubhamZXCV/kafka
+  subtitle: C++20, Distributed Systems
+  description: Built a Kafka-inspired partitioned, replicated event log in C++20 with consumer groups, dynamic rebalancing, and epoch-based fencing of stale consumers.
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/kafka
+
+- title: "KRAKEN: Knowledge-Graph VQA"
+  image: ./assets/img/projects/kraken.png
+  url: https://github.com/shubhamZXCV/KRAKEN
+  subtitle: PyTorch, Transformers
+  description: Built a multimodal QA model that fuses a GAT graph encoder, a frozen ViT with a Q-Former, and the question text, decoded by BART. Extended WebNLG into 35K+ rendered graph images with auto-generated QA pairs.
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/KRAKEN
+
+- title: "Network File System"
+  url: https://github.com/shubhamZXCV/network_file_system
+  image: ./assets/img/projects/nfs.png
+  subtitle: Operating Systems and Networks
+  description: Built a distributed NFS with naming server, storage servers, and client components, integrating concurrent file operations, LRU caching, data replication, and audio streaming. Optimized file path resolution using tries and hashmaps.
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/network_file_system
+
+- title: "Enhancements in xv6"
+  image: ./assets/img/projects/xv6.png
+  url: https://github.com/shubhamZXCV/XV6
+  subtitle: Operating Systems and Networks
+  description: Implemented custom system calls, UNIX-like signal handling, and advanced scheduling algorithms (MLFQ, Lottery Scheduling). Integrated Copy-on-Write (CoW) fork for optimized memory usage.
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/XV6
+
+- title: "Raytracer"
+  image: ./assets/img/projects/raytracer.png
+  url: https://github.com/shubhamZXCV/computer-graphics/tree/main/rayTracer
+  subtitle: C++, Computer Graphics
+  description: Implemented a recursive ray tracer in C++, supporting ray-object intersections, surface normals, diffuse (Lambertian), metallic, and dielectric materials with reflections and refractions.
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/computer-graphics/tree/main/rayTracer
+
+- title: "Custom Linux shell"
+  image: ./assets/img/projects/shell.png
+  url: https://github.com/shubhamZXCV/custom-c-shell
+  subtitle: C, Operating Systems and Networks
+  description: Developed a Linux shell supporting standard commands, piping, redirection, background processes, and custom utilities (e.g., real-time process tracker
+  links:
+    - name: Code
+      url: https://github.com/shubhamZXCV/custom-c-shell

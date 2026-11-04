@@ -1,13 +1,22 @@
-main:
+# Fields are the same as in projects.yml (see the comment at the top of that file).
 
-  - title: "Example Publication Title Goes Here"
-    authors: <strong>Your Name</strong>, Coauthor One, Coauthor Two
-    conference_short: CONF
-    conference: Example Conference Name <strong>(CONF)</strong>, 2026.
-    # pdf:
-    # supp:
-    # arxiv:
-    # page:
-    # code:
-    image: ./assets/files/BLANK.jpg
-    notes: Placeholder entry — replace with a real publication.
+- title: "How Does India Cook Biryani?"
+  url: ./assets/files/icvgip25/Biryani_ICVGIP2025_main.pdf
+  image: ./assets/files/icvgip25/biryani_icvgip25_teaser.png
+  badge: ICVGIP
+  subtitle: C. V. Rishi*, Farzana S*, <strong>Shubham Goel*</strong>, Aditya Arun, C. V. Jawahar (*Equal Contribution)
+  venue: Indian Conference on Computer Vision, Graphics and Image Processing <strong>(ICVGIP)</strong>, 2025.
+  links:
+    - name: PDF
+      url: ./assets/files/icvgip25/Biryani_ICVGIP2025_main.pdf
+    - name: Supplementary
+      url: ./assets/files/icvgip25/Biryani_ICVGIP2025_supp.pdf
+    - name: arXiv
+      url: https://arxiv.org/abs/2601.06198
+    - name: Code
+      url: https://github.com/farzanashaju/how-does-india-cook-biryani
+    - name: Project Page
+      url: https://farzanashaju.github.io/how-does-india-cook-biryani/
+    - name: BibTeX
+      url: ./assets/files/icvgip25/biryani_icvgip25.bib
+  note: Oral Presentation

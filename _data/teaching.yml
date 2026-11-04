@@ -1,0 +1,16 @@
+# Fields are the same as in projects.yml (see the comment at the top of that file).
+
+- title: "Teaching Assistant — Operating Systems and Networks (CS3.301)"
+  subtitle: "Instructor: Prof. Deepak Gangadharan"
+  venue: IIIT Hyderabad
+  date: Monsoon 2026
+
+- title: "Teaching Assistant — Introduction to Software Systems (CS6.201)"
+  subtitle: "Instructors: Prof. Anil Nelakanti and Prof. Anoop Namboodiri"
+  venue: IIIT Hyderabad
+  date: Spring 2026
+
+- title: "Teaching Assistant — Operating Systems and Networks (CS3.301)"
+  subtitle: "Instructor: Prof. Karthik Vaidhyanathan"
+  venue: IIIT Hyderabad
+  date: Monsoon 2025

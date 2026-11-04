@@ -1,0 +1,36 @@
+/* Fixed sidebar: pinned to the top, scrolls on its own if taller than the window */
+@media screen and (min-width: 961px) {
+  header { top: 0; max-height: 100vh; overflow-y: auto; box-sizing: border-box; padding-bottom: 2em; }
+}
+
+/* Sidebar menu */
+.side-nav { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 1em; }
+.side-nav a { padding: 4px 14px; border-radius: 4px; color: inherit; text-decoration: none; font-size: 0.95rem; }
+.side-nav a:hover { background: rgba(127, 127, 127, 0.12); }
+.side-nav a.current { color: var(--global-theme-color); font-weight: 600; }
+@media screen and (max-width: 960px) {
+  .side-nav { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+}
+
+/* Section items */
+.content-section .publications { margin-top: 1rem; }
+.publications ol.items-card li { margin-bottom: 1.5rem; }
+.publications ol.items-list li { min-height: 0; margin-bottom: 1rem; }
+.item-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1em; }
+.item-head .title { font-weight: bolder; }
+.item-date { opacity: 0.65; font-size: 0.9em; white-space: nowrap; }
+.item-desc { margin-top: 2px; }
+.items-list .links { margin-top: 4px; }
+
+/* Home view: only the first few items of each section */
+.view-more { display: inline-block; margin: 0 0 1.5em; font-size: 0.95rem; }
+.back-link { display: none; }
+html.js .item-extra { display: none; }
+html:not(.js) .view-more { display: none; }
+
+/* Section view (#<section-id>): only that section, with every item */
+html.section-view .home-only,
+html.section-view .content-section:not(.active),
+html.section-view .view-more { display: none; }
+html.section-view .content-section.active .item-extra { display: list-item; }
+html.section-view .back-link { display: inline-block; margin-bottom: 0.5em; }

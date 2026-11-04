@@ -1,0 +1,9 @@
+# # Fields are the same as in projects.yml (see the comment at the top of that file).
+# # Suggested use: title = the news item (HTML allowed, e.g. <a href="...">links</a>),
+# # date = when it happened. Put the newest first.
+
+# - title: "[Placeholder] This is where recent updates and announcements will go."
+#   date: Nov 2026
+
+# - title: "[Placeholder] Another example news item."
+#   date: Oct 2026

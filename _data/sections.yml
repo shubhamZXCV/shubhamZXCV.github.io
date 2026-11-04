@@ -1,0 +1,50 @@
+# Sections shown on the home page, in this order.
+# To add a section: add an entry here and create _data/<id>.yml with its items.
+# To remove a section: delete its entry here (the data file can stay).
+#
+#   id:      name of the data file in _data/ (id: projects -> _data/projects.yml);
+#            also used in the URL, e.g. yoursite/#projects shows the full list
+#   title:   heading shown on the page and in the sidebar menu
+#   preview: how many items to show on the home page before "View more"
+#   style:   "card" (thumbnail image on the left) or "list" (compact, text only)
+
+- id: news
+  title: News
+  preview: 5
+  style: list
+
+
+- id: education
+  title: Education
+  preview: 3
+  style: card
+
+- id: experience
+  title: Experience
+  preview: 3
+  style: card
+
+- id: projects
+  title: Projects
+  preview: 3
+  style: card
+
+- id: publications
+  title: Publications
+  preview: 3
+  style: card
+
+- id: teaching
+  title: Teachings
+  preview: 4
+  style: list
+
+- id: blogs
+  title: Blogs
+  preview: 4
+  style: list
+
+- id: awards
+  title: Awards
+  preview: 4
+  style: list

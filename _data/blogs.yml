@@ -1,0 +1,24 @@
+# # Fields are the same as in projects.yml (see the comment at the top of that file).
+
+# - title: "Placeholder Blog Post One"
+#   url: https://example.com
+#   date: Nov 2026
+#   description: One-line summary of the post.
+
+# - title: "Placeholder Blog Post Two"
+#   url: https://example.com
+#   date: Oct 2026
+#   description: One-line summary of the post.
+
+# - title: "Placeholder Blog Post Three"
+#   url: https://example.com
+#   date: Sep 2026
+
+# - title: "Placeholder Blog Post Four"
+#   url: https://example.com
+#   date: Aug 2026
+
+# - title: "Placeholder Blog Post Five"
+#   url: https://example.com
+#   date: Jul 2026
+#   description: Only visible after clicking "View more" because preview is 4.

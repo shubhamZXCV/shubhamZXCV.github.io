@@ -1,0 +1,42 @@
+{% assign item = include.item %}
+{% capture title %}{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% endcapture %}
+{% capture links %}
+  {% if item.links %}
+  <div class="links">
+    {% for l in item.links %}
+    <a href="{{ l.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">{{ l.name }}</a>
+    {% endfor %}
+    {% if item.note %}<strong> <i style="color:#e74d3c">{{ item.note }}</i></strong>{% endif %}
+  </div>
+  {% elsif item.note %}
+  <div class="links"><strong> <i style="color:#e74d3c">{{ item.note }}</i></strong></div>
+  {% endif %}
+{% endcapture %}
+
+{% if include.style == "card" %}
+<div class="pub-row">
+  {% if item.image %}
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" alt="">
+    {% if item.badge %}<abbr class="badge">{{ item.badge }}</abbr>{% endif %}
+  </div>
+  {% endif %}
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">{{ title }}</div>
+    {% if item.subtitle %}<div class="author">{{ item.subtitle }}</div>{% endif %}
+    {% if item.venue %}<div class="periodical"><em>{{ item.venue }}</em></div>{% endif %}
+    {% if item.date %}<div class="item-date">{{ item.date }}</div>{% endif %}
+    {% if item.description %}<div class="item-desc">{{ item.description }}</div>{% endif %}
+    {{ links }}
+  </div>
+</div>
+{% else %}
+<div class="item-head">
+  <span class="title">{{ title }}</span>
+  {% if item.date %}<span class="item-date">{{ item.date }}</span>{% endif %}
+</div>
+{% if item.subtitle %}<div class="author">{{ item.subtitle }}</div>{% endif %}
+{% if item.venue %}<div class="periodical"><em>{{ item.venue }}</em></div>{% endif %}
+{% if item.description %}<div class="item-desc">{{ item.description }}</div>{% endif %}
+{{ links }}
+{% endif %}

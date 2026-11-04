@@ -1,0 +1,26 @@
+{% for sec in site.data.sections %}
+{% assign items = site.data[sec.id] %}
+{% if items and items.size > 0 %}
+{% assign preview = sec.preview | default: 3 %}
+{% assign style = sec.style | default: "list" %}
+
+<div class="content-section" data-section="{{ sec.id }}">
+  <h2>{{ sec.title }}</h2>
+
+  <div class="publications">
+    <ol class="bibliography items-{{ style }}">
+      {% for item in items %}
+      <li{% if forloop.index > preview %} class="item-extra"{% endif %}>
+        {% include item.html item=item style=style %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  {% if items.size > preview %}
+  <a class="view-more" href="#{{ sec.id }}">View more ({{ items.size }}) &rarr;</a>
+  {% endif %}
+</div>
+
+{% endif %}
+{% endfor %}

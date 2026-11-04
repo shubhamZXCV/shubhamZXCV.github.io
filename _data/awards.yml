@@ -1,0 +1,15 @@
+# Fields are the same as in projects.yml (see the comment at the top of that file).
+# Suggested use: title = award, venue = who gave it, date = year,
+# description = a short note if needed.
+
+- title: "JEE Mains AIR 825"
+  date: 2023
+
+- title: "JEE Advanced AIR 3482"
+  date: 2023
+
+- title: "Deans List II , Deans List III , Merit List IIITH"
+  date: 2023 - 2027
+
+- title: "Research Award IIITH"
+  date: 2026

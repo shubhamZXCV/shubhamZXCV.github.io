@@ -1,9 +1,9 @@
-main:
+# main:
 
-  Conference Reviewers:
+#   Conference Reviewers:
 
-      - title: Placeholder — e.g. CVPR, NeurIPS
+#       - title: Placeholder — e.g. CVPR, NeurIPS
 
-  Journal Reviewers:
+#   Journal Reviewers:
 
-      - title: Placeholder — e.g. TPAMI, IJCV
+#       - title: Placeholder — e.g. TPAMI, IJCV

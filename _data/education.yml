@@ -1,0 +1,10 @@
+# Fields are the same as in projects.yml (see the comment at the top of that file).
+# Suggested use: title = degree, venue = institution, date = years,
+# description = CGPA, thesis, advisor, etc.
+
+- title: "Computer Science and Engineering"
+  image: ./assets/img/education/IIITH.jpeg
+  url: https://www.iiit.ac.in/
+  venue: IIIT Hyderabad
+  date: 2023 – 2027
+  description: "CGPA: 8.76 / 10"

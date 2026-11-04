@@ -1,0 +1,18 @@
+# Fields are the same as in projects.yml (see the comment at the top of that file).
+# Suggested use: title = role, venue = organisation and location, date = period,
+# subtitle = advisor or team, description = what you worked on.
+
+- title: "Undergraduate Researcher"
+  image: ./assets/img/experience/cvit.jpeg
+  url: https://cvit.iiit.ac.in/
+  venue: Center for Visual Information Technology (CVIT), IIIT Hyderabad
+  subtitle: "Advisor: Prof. C. V. Jawahar"
+  date: May 2025 – Present
+  description: Working on AI-generated image detection and attribution, investigating techniques to distinguish AI-generated images from real ones and identify their generative sources.
+
+- title: "System Software Engineering Intern"
+  image: ./assets/img/experience/nvidia.png
+  venue: NVIDIA Graphics Pvt. Ltd., Hyderabad
+  date: May 2026 – July 2026
+  description: NvGPU QNX driver refactoring. Security tests automation in GVS.
+  note: Received return offer
