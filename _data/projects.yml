@@ -49,6 +49,15 @@
     - name: Code
       url: https://github.com/shubhamZXCV/XV6
 
+- title: "Neural Machine Translation with Transformers"
+  image: ./assets/img/projects/transformer.png
+  url: "https://github.com/shubhamZXCV/Transformers"
+  subtitle: PyTorch
+  description: This project implements a Transformer-based sequence-to-sequence model for machine translation using PyTorch from scratch. It supports multiple positional encoding strategies (RoPE, Relative Bias, Absolute), custom tokenization, and multiple decoding strategies (Greedy, Beam Search, Top-k sampling).
+  links:
+    - name: Code
+      url: "https://github.com/shubhamZXCV/Transformers"
+
 - title: "Raytracer"
   image: ./assets/img/projects/raytracer.png
   url: https://github.com/shubhamZXCV/computer-graphics/tree/main/rayTracer
